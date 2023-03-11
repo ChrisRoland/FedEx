@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 116 116">
+    <defs>
+        <style>
+            /* Hide all of the icons first. */
+            .icon {
+                display: none;
+            }
+
+            .icon--small {
+                display: block;
+            }
+
+
+            /* Display the desired icon and hide the others according to the viewport's size. */
+            @media screen and (min-width: 100px) {
+
+                .icon--large {
+                    display: block;
+                }
+
+                .icon--small {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: 69px){
+                .icon--small * {
+                    stroke-width: 3;
+                }
+            }
+        </style>
+    </defs>
+
+
+    <g class="icon icon--large">
+<line x1="11.8" y1="49.96" x2="100.29" y2="49.96" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="11.8 64.82 11.8 104.38 100.29 104.38 100.29 64.79" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect x="24" y="76.03" width="12.21" height="28.35" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect x="51.47" y="76.03" width="36.62" height="12.21" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="88.95" y1="49.96" x2="80.21" y2="25.55" fill="#fff" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="67.02" y1="49.96" x2="64.48" y2="25.55" fill="#fff" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="16.73 25.55 97.15 25.55 110.75 49.69" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="14.95" y1="25.55" x2="1.22" y2="49.96" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="22.96" y1="49.96" x2="31.71" y2="25.55" fill="#fff" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="44.89" y1="49.96" x2="47.44" y2="25.55" fill="#fff" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="95.19" y1="25.55" x2="14.76" y2="25.55" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="97 25.55 14.65 25.55 14.65 7.11 97.35 7.11 97.35 25.55 15 25.55" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M1.22,50v4.57c0,5.68,5.28,10.29,11,10.29s11-4.61,11-10.29V50Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M23.15,50v4.57c0,5.68,5.28,10.29,11,10.29s11-4.61,11-10.29V50Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M45.09,50v4.57c0,5.68,5.28,10.29,11,10.29s11-4.61,11-10.29V50Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M67,50v4.57c0,5.68,5.28,10.29,11,10.29s11-4.61,11-10.29V50Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M89,50v4.57c0,5.68,5.28,10.29,11,10.29s11-4.61,11-10.29V50Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g>
+
+    <g class="icon icon--small">
+<line x1="11.85" y1="46.85" x2="100.35" y2="46.85" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="11.85 61.71 11.85 101.27 100.35 101.27 100.35 61.68" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect x="24.06" y="72.91" width="12.21" height="28.35" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect x="51.52" y="72.91" width="36.62" height="12.21" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="89.01" y1="46.85" x2="80.27" y2="22.43" fill="#fff" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="67.08" y1="46.85" x2="64.53" y2="22.43" fill="#fff" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="16.78 22.43 97.21 22.43 110.75 46.44" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="15.01" y1="22.43" x2="1.31" y2="46.63" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="23.02" y1="46.85" x2="31.76" y2="22.43" fill="#fff" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="44.95" y1="46.85" x2="47.5" y2="22.43" fill="#fff" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="95.25" y1="22.43" x2="14.82" y2="22.43" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="97.06 22.43 14.71 22.43 14.71 11.97 97.41 11.97 97.41 22.43 15.06 22.43" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M1.28,46.85v4.57c0,5.68,5.28,10.29,11,10.29s11-4.61,11-10.29V46.85Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M23.21,46.85v4.57c0,5.68,5.28,10.29,11,10.29s11-4.61,11-10.29V46.85Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M45.14,46.85v4.57c0,5.68,5.28,10.29,11,10.29s11-4.61,11-10.29V46.85Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M67.08,46.85v4.57c0,5.68,5.28,10.29,11,10.29S89,57.1,89,51.42V46.85Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M89,46.85v4.57c0,5.68,5.28,10.29,11,10.29s11-4.61,11-10.29V46.85Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+</svg>
