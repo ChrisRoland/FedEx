@@ -59,6 +59,10 @@ section {
 
 .main-1 {
     font-family: verdana;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .p1, .p2, .p3 {
@@ -104,8 +108,6 @@ section {
     padding: 50px;
     display: flex;
     justify-content: center;
-
-    
 }
 
 .sec-1, .sec-2, .sec-3, .sec-4, .sec-5 {
@@ -154,6 +156,27 @@ img {
     width: 60px;
     height: 60px;
 }
+
+/*section-2 {
+    display: flex;
+    flex-direction: row; 
+}*/
+
+.img1, .img2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+/*.span-1, .span-2 {
+    display: flex;
+    flex-direction: column; 
+
+}*/
 
 h2 {
     padding: 30px;
