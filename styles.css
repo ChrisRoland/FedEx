@@ -32,7 +32,7 @@ a {
     flex-direction: column-reverse;
     color: white;
     text-decoration: none;
-    background-color: rgb(103, 12, 189);
+    /* background-color: rgb(103, 12, 189); */
     padding: 0px;
     margin: 5px;
 }
