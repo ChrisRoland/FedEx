@@ -10,6 +10,8 @@
 
 header {
     background:rgb(79 10 145);
+    /* position: relative; */
+    position: sticky;
 }
 
 nav {
@@ -46,7 +48,7 @@ a {
 .Logo {
     width: 90px;
     height: 80px;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 .sign-up {
@@ -63,15 +65,16 @@ a {
     background-size: cover;
 }
 
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-section {
+.boxes {
     display: flex;
     justify-content: center;
     padding: 30px;
 }
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 
 input {
     border-style: none;
@@ -124,16 +127,6 @@ input {
     padding-top: 32px;
 }
 
-/* .main-1 {
-    display: flex;
-    flex-direction: column;
-} 
-
-.icon, .icon2, .icon3, .icon4, .icon5 {
-    display: flex;
-    padding-top: 20px;
-} */
-
 .section-1 {
     padding: 50px;
     display: flex;
@@ -153,12 +146,6 @@ input {
     align-items: center;
 }
 
-/* p {
-    display:flex;
-    justify-content: center;
-    align-items: center;N
-} */
-
 .tracking {
     display: flex;
     justify-content: center;
@@ -171,6 +158,9 @@ input {
     justify-content: center;
     padding: 10px;
 }
+/* :hover submit {
+    padding: 10px;
+} */
 
 .icon1, .icon2, .icon3, .icon4, .icon5 {
     width: 80px;
@@ -197,10 +187,11 @@ img {
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+}
+
+.img3, .img4 {
+    height: 20%;
+    width: 20%;
 }
 
 .scndSection {
@@ -235,7 +226,15 @@ h2 {
 }
 
 footer {
+    display: flex;
     padding: 20px 20px 20px 10px;
     color: #fff;
     background:rgb(79 10 145);
+}
+.foot-link {
+    padding: 0px;
+}
+.copyright {
+    padding-top: 10px;
+    padding-right: 50%;
 }
