@@ -10,8 +10,8 @@
 
 header {
     background:rgb(79 10 145);
-    /* position: relative; */
     position: sticky;
+    top: 0;
 }
 
 nav {
@@ -72,6 +72,7 @@ a {
 }
 
 h1 {
+    color: aqua;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
