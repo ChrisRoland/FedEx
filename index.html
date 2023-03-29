@@ -9,16 +9,16 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar" >
             <ul>
-                <li class="nav-item">
+                <li class="nav-item" id="home">
                     <a href="#home" class="nav-link"><img src="Img/Logo.png" class="Logo" alt="Logo"></a>
                 </li>
                 <li class="nav-item">
-                  <a href="#about" class="nav-link" id="nav-link">Shipping ∨</a>
+                  <a href="#ship" class="nav-link" id="nav-link">Shipping ∨</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#stars" class="nav-link" id="nav-link">Tracking ∨</a>
+                  <a href="#track" class="nav-link" id="nav-link">Tracking ∨</a>
                 </li>
                 <li class="nav-item">
                   <a href="#stakeholders" class="nav-link" id="nav-link">Design & Print ∨</a>
@@ -35,7 +35,7 @@
           </ul>
         </nav>
     </header>
-    <div class="top">
+    <div class="top" id="ship">
         <h1>Ship, manage, track, deliver</h1>
         <br>
         <section class="boxes">
@@ -53,12 +53,14 @@
         </div>
         </section>
         <div class="tracking">
-            <input placeholder="TRACKING ID"></input>
+            <input id="track" placeholder="TRACKING ID"></input>
             <div class="btn">
                 TRACK
             </div>
         </div>
-        <span ><p class="help">MULTIPLE TRACKING NUMBERS | NEED HELP?</p></span>
+        <div class="help">
+            <p>MULTIPLE TRACKING NUMBERS | NEED HELP?</p>
+        </div>
     </div>
     <div class="main-1">
         <h2>Manage your shipments and returns</h2>
@@ -101,23 +103,23 @@
             <div class="sec-2-content1">
                 <p class="schedule">
                     <img class="img1" src="Img/We pick up.jpeg" alt="icon">
-                    <span class="span-1">We pick up. You save time.</span><br>
+                    <h5 class="span-1">We pick up. You save time.</h5><br>
                         Let us come to your home or business to pick up
                         your package. It's easy to schedule a one-time
                         pickup online. If you have recurring delivery needs,
                         plan ahead with regular pickups.
-                    <span class="span-2">SCHEDULE A PICKUP</span> 
+                    <h4 class="span-2">SCHEDULE A PICKUP</h4> 
                 </p>
             </div>
             <div class="sec-2-content2">
                 <p class="schedule">
                     <img class="img2" src="Img/drop off.jpeg" alt="icon">
-                    <span class="span-1">Drop off packages while you shop</span><br>
+                    <h5 class="span-1">Drop off packages while you shop</h5><br>
                     If you're out and about, combine your shopping
                     and shipping. Drop off packages at thousands of
                     locations, including FedEx Office, Dollar General,
                     Walgreens, and select grocery stores.
-                    <span class="span-2">FIND LOCATIONS</span>
+                    <h4 class="span-2">FIND LOCATIONS</h4>
                 </p>
             </div>
         </section>
@@ -127,23 +129,63 @@
         <h2>We're behind your small business</h2>
     <section class="thrdSection">
         <div class="sec-3-content1">
+            <img class="img3" src="Img/Set Up Shop.jpeg" alt="icon">
             <p class="schedule">
-                <img class="img3" src="Img/Set Up Shop.jpeg" alt="icon">
-                <span class="span-1">Set your small business up for success</span><br>
+                <h6 class="span-1">Set your small business up for success</h6><br>
                 Visit the updated Small Business Center for the latest resources from experts and peers. Find shipping tools to improve deliveries for you and your customers.
-                <span class="span-2">FIND TIPS AND TOOLS</span> 
+                <h6 class="span-2">FIND TIPS AND TOOLS</h6> 
             </p>
         </div>
         <div class="sec-3-content2">
+            <img class="img4" src="Img/Thousands of Prdcts.jpeg" alt="icon">
             <p class="schedule">
-                <img class="img4" src="Img/Thousands of Prdcts.jpeg" alt="icon">
-                <span class="span-1">Thousands of packages at a glance</span><br>
+                <h6 class="span-1">Thousands of packages at a glance</h6><br>
                 It’s simple to manage up to 20,000 shipments and run reports in your advanced tracking dashboard. View estimated delivery windows to keep customers informed.
-                <span class="span-2">TRACK FOR FREE</span>
+                <h6 class="span-2">TRACK FOR FREE</h6>
             </p>
-    </div>
+        </div>
     </section>
-    <footer>
+    </div>
+
+    <div style="margin: 2% 15%;">
+        <p>
+            <h6><b>FedEx money-back guarantee</b></h6><br>
+            We offer a money-back guarantee for select services. This guarantee may be suspended, modified, or revoked. Please check money-back guarantee for the latest status of our money-back guarantee.
+            <br><span style="font-size: small;">* More than 50% of the U.S. population on Sundays.</span>
+        </p>
+    </div>
+
+    <div class="main-3">
+        <div class="about" id="about">
+            <p>
+                <h6>OUR COMPANY</h6>
+                About FedEx
+                Our Portfolio
+                Investor Relations
+                Careers
+                FedEx Blog
+                Corporate Responsibility
+                Newsroom
+                Contact Us
+            </p>
+            <p>
+                <h6>MORE FROM FEDEX</h6>
+                FedEx Compatible
+                FedEx Developer Portal
+                FedEx Logistics
+                FedEx Cross Border
+                ShopRunner
+            </p>
+            <p>
+                <h6>LANGUAGE</h6>
+                United States United States
+                English
+            </p>
+            <hr>
+        </div>
+    </div>
+
+    <footer id="sub">
         <p class="copyright">&copy; FedEx 1995-2023</p>
         <ul class="foot">
             <li class="foot-item">
