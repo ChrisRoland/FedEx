@@ -229,7 +229,16 @@ img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    /* padding-right: 2px; */
 }
+
+/* .schedule2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 2px;
+} */
 
 .span-2 {
     color: rgb(47, 116, 177);
@@ -250,13 +259,15 @@ h2 {
 .fa {
     height: 30px;
     width: 30px;
-    border-radius: 90%;
+    padding:10px;
+    border-radius: ;
     text-align: center;
     background: aquamarine;
 }
 
 .social-links {
     display: flex;
+    align-items: center;
     padding-bottom: 50px;
 }
 
@@ -268,8 +279,11 @@ footer {
 }
 
 .foot-link {
+    
     padding: 0px;
 }
+
+
 .copyright {
     padding-top: 10px;
     padding-right: 50%;
