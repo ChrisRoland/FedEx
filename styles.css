@@ -265,7 +265,35 @@ h2 {
     border: 1px solid rgb(207, 205, 205);
     border-radius: 100%;
     text-align: center;
-    background: aquamarine;
+    background: #fff;
+}
+
+#fa1 {
+    color: gainsboro;
+}
+
+#fa2 {
+    color: rgb(0, 110, 255);
+}
+
+#fa3 {
+    color: rgb(30, 154, 250);
+}
+
+#fa4 {
+    color: rgb(237, 41, 244);
+}
+
+#fa5 {
+    color: #42b9da;
+}
+
+#fa6 {
+    color: red;
+}
+
+#fa7 {
+    color: red;
 }
 
 .social-links {
