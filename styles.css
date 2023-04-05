@@ -227,8 +227,8 @@ img {
 .schedule {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     /* padding-right: 2px; */
 }
 
@@ -242,14 +242,14 @@ img {
 
 .span-2 {
     color: rgb(47, 116, 177);
-    padding: 10px;
 }
 
-/* .sec-2-content {
+.sec-3-content2, .sec-3-content1 {
     display: flex;
-    justify-content: center;
-    align-content: center;
-} */
+    padding: 10px 0px;
+    /* justify-content: center;
+    align-content: center;*/
+} 
 
 h2 {
     padding: 30px;
