@@ -234,7 +234,7 @@ img {
 }
 
 .schedule2 {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -263,7 +263,7 @@ img {
 } 
 
 .money-back {
-    width: 50%;
+    width: 30%;
     margin: 2% 15%;
 }
 
