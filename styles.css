@@ -272,6 +272,17 @@ h2 {
     text-align: center;
 }
 
+.inAbout {
+    display: flex;
+    font-size: small;
+}
+
+.aboutInfo {
+    display: inherit;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
 .fa {
     box-sizing: border-box;
     height: 30px;
