@@ -5,9 +5,18 @@
     font-family: verdana;
 }
 
-/* header {
-    justify-content: center;
-} */
+@media (min-width: 414px) {
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .section-1 {
+        padding: 50px;
+        display: block;
+        justify-content: center;
+    }
+}
 
 header {
     background:rgb(79 10 145);
