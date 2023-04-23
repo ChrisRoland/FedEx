@@ -5,11 +5,11 @@
     font-family: verdana;
 }
 
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
     body {
         height: 100vh;
         overflow: hidden;
-    }
+    } */
 
     .section-1 {
         padding: 50px;
