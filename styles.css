@@ -5,18 +5,45 @@
     font-family: verdana;
 }
 
-/* @media (min-width: 414px) {
-    body {
-        height: 100vh;
-        overflow: hidden;
+/* body {
+    background-color: #ff6c00;
+} */
+
+@media screen and (max-width: 820px) {
+    * { 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: verdana;
     }
 
-    .section-1 {
-        padding: 50px;
-        display: block;
-        justify-content: center;
+    body {
+      background-color: rgb(211, 239, 249);
     }
-} */
+
+    .Logo {
+        width: 90px;
+        height: 80px;
+        padding-right: 20px;
+    }
+
+    .track {
+        margin-top: 35px;
+    }
+
+    .sec-1, .sec-2, .sec-3, .sec-4, .sec-5 {
+        color: rgb(47, 116, 177);
+        font-weight: 10px;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        padding: 10px 30px 10px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
 
 header {
     background:rgb(79 10 145);
